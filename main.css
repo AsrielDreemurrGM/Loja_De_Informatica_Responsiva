@@ -58,8 +58,8 @@ body {
     font-size: 1,5em;
 }
 
-#loja {
-    margin-bottom: 10px;
+.container {
+    margin-bottom: 50px;
 }
 
 #sobre h1,
@@ -100,7 +100,8 @@ body {
     font-size: 20px;
     font-weight: bold;
     border: none;
-    padding: 10px 17px;
+    width: 100%;
+    height: 10%;
     border-radius: 5px;
 }
 
@@ -117,9 +118,26 @@ body {
     #sobre {
         display: block;
     }
+
     #sobre img {
         max-width: 100%;
         width: 100%;
         margin-bottom: 30px;
+    }
+
+    #produtos {
+        display: grid;
+        grid-template-columns: 49% 49%;
+        column-gap: 2%;
+        row-gap:5%;
+        justify-content: center;
+    }
+
+    .produto h3 {
+        font-size: 2em;
+    }
+
+    .produto h4 {
+        font-size: 20px;
     }
 }
