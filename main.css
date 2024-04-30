@@ -49,6 +49,11 @@ body {
     margin-bottom: 30px;
 }
 
+#sobre img {
+    max-width: 316px;
+    width: 100%;
+}
+
 #sobre h2 {
     font-size: 1,5em;
 }
@@ -100,4 +105,20 @@ body {
 
 .produto button:hover {
     background-color: #2161f7;
+}
+
+/* Início - Layout Tablet */
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .container {
+        max-width: 80%;
+    }
+
+    #sobre {
+        display: block;
+    }
+    #sobre img {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
