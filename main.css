@@ -53,6 +53,10 @@ body {
     font-size: 1,5em;
 }
 
+#loja {
+    margin-bottom: 10px;
+}
+
 #sobre h1,
 #loja h1 {
     font-size: 2em;
@@ -92,4 +96,8 @@ body {
     border: none;
     padding: 10px 17px;
     border-radius: 5px;
+}
+
+.produto button:hover {
+    background-color: #2161f7;
 }
